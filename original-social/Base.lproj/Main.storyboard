@@ -91,7 +91,7 @@
                                         <rect key="frame" x="0.0" y="32" width="228" height="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.87" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="15"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9qc-yb-e8c" customClass="FancyBtn" customModule="original_social" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="64" width="228" height="29"/>
@@ -100,6 +100,9 @@
                                         <state key="normal" title="Sign In">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="sugnInTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jQN-hO-aF3"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -123,6 +126,10 @@
                             <constraint firstAttribute="trailing" secondItem="ern-jH-q2e" secondAttribute="trailing" id="vuC-i2-d7y"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="YL3-C1-TMF" id="qmG-Jv-d3C"/>
+                        <outlet property="pwdField" destination="g1c-zR-gQn" id="Cae-wr-nwy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
