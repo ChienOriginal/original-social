@@ -23,15 +23,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ern-jH-q2e" customClass="FancyView" customModule="original_social" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="originallogo" translatesAutoresizingMaskIntoConstraints="NO" id="Kre-8r-CkI">
-                                        <rect key="frame" x="54" y="48" width="212" height="55"/>
+                                        <rect key="frame" x="54" y="23" width="212" height="55"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.73725490196078436" blue="0.83137254901960778" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="4wh-Sr-sk7"/>
+                                    <constraint firstAttribute="height" constant="100" id="4wh-Sr-sk7"/>
                                     <constraint firstItem="Kre-8r-CkI" firstAttribute="centerX" secondItem="ern-jH-q2e" secondAttribute="centerX" id="6Ts-di-brX"/>
                                     <constraint firstItem="Kre-8r-CkI" firstAttribute="centerY" secondItem="ern-jH-q2e" secondAttribute="centerY" id="Qes-BZ-6eU"/>
                                 </constraints>
@@ -58,7 +58,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a sign in method" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XbK-xS-lYv">
-                                <rect key="frame" x="16" y="170" width="288" height="20"/>
+                                <rect key="frame" x="16" y="120" width="288" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="MMO-ix-nFU"/>
                                 </constraints>
@@ -67,16 +67,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0G-TJ-IQD" customClass="RoundBtn" customModule="original_social" customModuleProvider="target">
-                                <rect key="frame" x="85" y="230" width="150" height="150"/>
+                                <rect key="frame" x="85" y="180" width="150" height="150"/>
                                 <color key="backgroundColor" red="0.25490196078431371" green="0.36078431372549019" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="3NY-zm-EvT"/>
                                     <constraint firstAttribute="height" constant="150" id="9Js-Id-SYt"/>
                                 </constraints>
                                 <state key="normal" image="f"/>
+                                <connections>
+                                    <action selector="facebookBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8dq-p4-mww"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="KJ3-eI-HqG">
-                                <rect key="frame" x="46" y="420" width="228" height="93"/>
+                                <rect key="frame" x="46" y="370" width="228" height="93"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YL3-C1-TMF" customClass="FancyField" customModule="original_social" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="228" height="17"/>
