@@ -18,6 +18,7 @@
 		107FD69A1E48396100A405BD /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107FD6991E48396100A405BD /* RoundBtn.swift */; };
 		107FD69C1E483C6B00A405BD /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107FD69B1E483C6B00A405BD /* FancyField.swift */; };
 		107FD69E1E483D5300A405BD /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107FD69D1E483D5300A405BD /* FancyBtn.swift */; };
+		10C99A061E4A997E00E3C37D /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C99A051E4A997E00E3C37D /* FeedVC.swift */; };
 		39F01718378519F1623C5AD9 /* Pods_original_social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDEE53EAC05F484B259B2FC8 /* Pods_original_social.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		107FD6991E48396100A405BD /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
 		107FD69B1E483C6B00A405BD /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		107FD69D1E483D5300A405BD /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
+		10C99A051E4A997E00E3C37D /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		10CA0DA21E49A1910098F8D7 /* original-social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "original-social.entitlements"; sourceTree = "<group>"; };
 		24A457B8331ADEE8EEFCD5E3 /* Pods-original-social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-original-social.release.xcconfig"; path = "Pods/Target Support Files/Pods-original-social/Pods-original-social.release.xcconfig"; sourceTree = "<group>"; };
 		FDEE53EAC05F484B259B2FC8 /* Pods_original_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_original_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				105A87AD1E444770005C5164 /* SignInVC.swift */,
+				10C99A051E4A997E00E3C37D /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				107FD6951E48356200A405BD /* FancyView.swift in Sources */,
 				107FD6981E48378500A405BD /* Constants.swift in Sources */,
 				107FD69E1E483D5300A405BD /* FancyBtn.swift in Sources */,
+				10C99A061E4A997E00E3C37D /* FeedVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
